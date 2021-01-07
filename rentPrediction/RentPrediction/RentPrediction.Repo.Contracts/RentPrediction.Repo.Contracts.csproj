@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentPrediction.Data.Entities\RentPrediction.Data.Entities.csproj" />
+    <ProjectReference Include="..\tesr\RentPrediction.BEModels.csproj" />
+  </ItemGroup>
+
+</Project>

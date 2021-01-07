@@ -1,0 +1,13 @@
+<div class="card property-card">
+  <div class="property-image" (click)="goToProperty()">
+    <img class="card-img-top" [src]="imageSrc" alt="Property image not found"></div>
+    <div class="card-body property-card-body">
+      <h5 class="card-title">{{property.name}}</h5>
+      <p class="card-text property-card-description"></p>
+      <p class="card-text">
+        <i *ngIf="property.price > property.predictedPrice" class="fa fa-surprise red"></i>
+        <i *ngIf="property.price < property.predictedPrice" class="fa fa-surprise green"></i>
+        <i *ngIf="property.price == property.predictedPrice" class="fa fa-surprise neutral"></i>
+        <!-- <small class="text-muted">Available Date: {{property.availableDate}}</small></p> -->
+    </div>
+  </div>

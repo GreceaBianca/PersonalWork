@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RentPrediction.Business.AddressManager" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAABAAAAAAAAAAAAEAAAAAAAAgAAIAAAAAAAAA=</HashCode>
+      <FileName>AddressManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_addressRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.FavoriteManager" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQABAAAAAAAAAAAAAAQAAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>FavoriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_favoriteRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.FeatureManager" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABACAAAAAAAAAAAAAAAABICAAAAAAAAA=</HashCode>
+      <FileName>FeatureManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_featureRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.GalleryManager" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAACAAAAAAAAgQ=</HashCode>
+      <FileName>GalleryManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_galleryRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.PropertyManager" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAEAAAAEBAAAAAAAAAAAAIBgABAABAAIA=</HashCode>
+      <FileName>PropertyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_propertyRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.PropertyTypeManager" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <AssociationLine Name="_propertyTypeRepository" Type="RentPrediction.Repo.Contracts.IPropertyTypeRepository">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.078" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAIBAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>PropertyTypeManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_propertyTypeRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.RoleManager" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQEAAAAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>RoleManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_roleRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.UserManager" BaseTypeListCollapsed="true">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoAAAAAAAEAAAAAAIAAQCAAAAgAAAAAAEQAAA=</HashCode>
+      <FileName>UserManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_roleRepository" />
+      <Field Name="_userRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="RentPrediction.Repo.Contracts.IAddressRepository" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IFavoriteRepository" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IFeatureRepository" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IPropertyTypeRepository" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IPropertyRepository" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IGalleryRepository" Collapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IRoleRepository" Collapsed="true">
+    <Position X="16.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RentPrediction.Repo.Contracts.IUserRepository" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

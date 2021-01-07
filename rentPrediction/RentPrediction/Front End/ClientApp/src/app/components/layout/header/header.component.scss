@@ -1,0 +1,23 @@
+.rent-header {
+  color:white;
+
+  ul{
+    width:100%;
+    li{
+      width:calc(20% - 10px);
+      margin: 0 auto 2px auto;
+      cursor: pointer;
+      text-align: center;
+      padding: 0 20;
+    }
+
+    li:hover{
+      border-bottom: 1px solid white;
+    }
+
+    .active{
+      opacity:0.9;
+      border-bottom: 1px solid white;
+    }
+  }
+}

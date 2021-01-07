@@ -1,0 +1,31 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Front End
+/RentPrediction.Data/obj
+/RentPrediction.Data/bin
+/RentPrediction.Business.Contracts/bin
+/RentPrediction.Business.Contracts/obj
+/RentPrediction.Business/bin
+/RentPrediction.Business/obj
+/RentPrediction.Data.Entities/obj
+/RentPrediction.Data.Entities/bin
+/RentPrediction.Infrastructure/obj
+/RentPrediction.Infrastructure/bin
+/RentPrediction.Business.Contracts/obj/RentPrediction.Business.Contracts.csproj.nuget.g.props
+/RentPrediction.Business.Contracts/obj/RentPrediction.Business.Contracts.csproj.nuget.g.targets
+/RentPrediction.Business.Contracts/obj/project.assets.json
+/RentPrediction.Business.Contracts/obj/Debug
+/RentPrediction.Business.Contracts/obj/Release
+/RentPrediction.Business.Contracts/obj/RentPrediction.Business.Contracts.csproj.nuget.cache
+/RentPrediction.Business.Contracts/obj/RentPrediction.Business.Contracts.csproj.nuget.dgspec.json
+/RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.g.targets
+/RentPrediction.Business/obj/project.assets.json
+/RentPrediction.Business/obj/Debug
+/RentPrediction.Business/obj/Release
+/RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.cache
+/RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.dgspec.json
+/RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.g.props
+/RentPrediction.sln.DotSettings.user
+*.pdf

@@ -1,0 +1,33 @@
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.deps.json
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.csprojAssemblyReference.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.AssemblyInfoInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.AssemblyInfo.cs
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.csproj.CopyComplete
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.deps.json
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.csprojAssemblyReference.cache
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.AssemblyInfoInputs.cache
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.AssemblyInfo.cs
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.csproj.CopyComplete
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Debug\netstandard2.0\RentPrediction.BEModels.csproj.CoreCompileInputs.cache

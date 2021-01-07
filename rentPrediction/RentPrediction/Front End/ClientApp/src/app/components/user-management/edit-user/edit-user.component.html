@@ -1,0 +1,91 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="edit-card">
+    <div class="title">
+        <p>Editeaza Profilul</p>
+    </div>
+    <div class="edit-form">
+        <form #editForm="ngForm" (ngSubmit)="save()">
+            <div class="edit-form-content">
+                <div class="row edit-row">
+                    <div class="name-row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Prenume</label>
+                                <input type="text" class="form-control" placeholder="exemplu: Ana"
+                                    [(ngModel)]="user.firstName" name="firstName" #firstName="ngModel" required />
+                                <div *ngIf="firstName.invalid  && (firstName.dirty || firstName.touched)">
+                                    <div class="form-error" *ngIf="firstName.errors?.required">
+                                        Prenumele nu este valid.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="name-row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Nume</label>
+                                <input type="text" class="form-control" placeholder="exemplu: Popescu"
+                                    [(ngModel)]="user.lastName" name="lastName" #lastName="ngModel" required />
+                                <div *ngIf="lastName.invalid  && (lastName.dirty || lastName.touched)">
+                                    <div class="form-error" *ngIf="lastName.errors?.required">
+                                        Numele nu este valid.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row edit-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Numar de telefon</label>
+                            <input type="text" class="form-control" placeholder="exemplu: 0712345678"
+                                [(ngModel)]="user.phoneNo" name="phoneNo" #phoneNo="ngModel" required />
+                            <div *ngIf="phoneNo.invalid  && (phoneNo.dirty || phoneNo.touched)">
+                                <div class="form-error" *ngIf="phoneNo.errors?.required">
+                                    Numarul de telefon nu este valid.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row edit-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" class="form-control" placeholder="exemplu: ana.popescu@yahoo.com"
+                                [(ngModel)]="user.email" name="email" #email="ngModel" required />
+                            <div *ngIf="email.invalid  && (email.dirty || email.touched)">
+                                <div class="form-error" *ngIf="email.errors?.required">
+                                    Email-ul nu este valid.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row edit-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Nume utilizator</label>
+                            <input type="text" class="form-control" placeholder="exemplu: AnaPopescu97" [(ngModel)]="user.username"
+                                name="name" #name="ngModel" required />
+                            <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                                <div class="form-error" *ngIf="name.errors?.required">
+                                    Numele de utilizator nu este valid.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edit-footer">
+                <button type="submit" class="btn btn-outline-dark" [disabled]="!editForm.form.valid">Salveaza</button>
+            </div>
+        </form>
+    </div>
+</div>

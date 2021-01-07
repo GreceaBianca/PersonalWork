@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RentPrediction.Business.AddressManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAABAAABAAAAAAAAEAAAAAAAAgAAIAAAAAAAAA=</HashCode>
+      <FileName>AddressManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RentPrediction.Business.FavoriteManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQABBAAAAAAAAAAAAAQAAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>FavoriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.FeatureManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABACAAAAAAAAAAAAAAAABICAAAAAAAAA=</HashCode>
+      <FileName>FeatureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.GalleryManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABAAAAAIAAAQAAAAAAAAACAAAAAAAAgQ=</HashCode>
+      <FileName>GalleryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.PropertyManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAEAAAAEBAAAAAAAAAAAAIBgABAABAAIA=</HashCode>
+      <FileName>PropertyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.PropertyTypeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAABAAAAAAAAAAAIBAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>PropertyTypeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.RoleManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQEAAAAAAABAAAgAAAAAACAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>RoleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.ScraperManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAAAAAAQBAAABAIAQAACQKAAEABhIAAAAEAA=</HashCode>
+      <FileName>ScraperManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RentPrediction.Business.UserManager" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoAAAAAAAEAAABAAIAAQCAAAAgAAAAAAEQAAA=</HashCode>
+      <FileName>UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RentPrediction.Repo.Contracts.IRoleRepository">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

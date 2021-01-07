@@ -1,0 +1,164 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="card-deck row">
+    <div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card properties-card">
+                    <div class="card-header">
+                        <h4 class="card-title"> Proprietatile mele</h4>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class=" text-primary">
+                                        <th>
+                                            Nume
+                                        </th>
+                                        <th>
+                                            Suprafata
+                                        </th>
+                                        <th>
+                                            Descriere
+                                        </th>
+                                        <th>
+                                            Pret
+                                        </th>
+                                        <th>
+                                            Pret prezis
+                                        </th>
+                                        <th>
+                                            Actiuni
+                                        </th>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let property of properties">
+                                            <td>
+                                                {{property.name}}
+                                            </td>
+                                            <td>
+                                                {{property.usableSurface}}
+                                            </td>
+                                            <td>
+                                                {{property.description}}
+                                            </td>
+                                            <td>
+                                                {{property.price}}
+                                            </td>
+                                            <td>
+                                                {{property.predictedPrice}}
+                                            </td>
+                                            <td class="action-buttons-td">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-simple btn-icon action-btn margin"
+                                                    tooltip="Editeaza proprietatea" (click)="openModal(property)">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                                <button type="button"
+                                                class="btn btn-primary btn-simple btn-icon action-btn"
+                                                tooltip="Sterge proprietatea" (click)="deleteProperty(property)">
+                                                <i class="fa fa-trash"></i>
+                                            </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" bsModal #editModal="bs-modal" tabindex="-1" role="dialog" [config]="{backdrop: 'static'}"
+    aria-labelledby="dialog-static-name">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content edit-modal">
+            <div class="modal-header">
+                <h4 id="dialog-static-name" class="modal-title pull-left"> Editare proprietate</h4>
+                <button type="button" class="close pull-right" aria-label="Close" (click)="editModal.hide()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form #userForm="ngForm" *ngIf="propertyEdited" (ngSubmit)="edit()">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Nume</label>
+                                <input type="text" class="form-control" placeholder="Name" [(ngModel)]="propertyEdited.name"
+                                    name="name" #name="ngModel" required />
+                                <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                                    <div class="form-error" *ngIf="name.errors?.required">
+                                        Nume invalid
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Suprafata</label>
+                                <input type="number" class="form-control" placeholder="Suprafata" [(ngModel)]="propertyEdited.usableSurface"
+                                    name="surface" #surface="ngModel" required  min="1" (change)="updateError()"/>
+                                <div *ngIf="surface.invalid  && (surface.dirty || surface.touched)">
+                                    <div class="form-error" *ngIf="surface.errors.required">
+                                        Suprafata este invalida.
+                                    </div>
+                                </div>
+                                <div *ngIf="surfaceError">
+                                    <div class="form-error" *ngIf="propertyEdited.usableSurface<=0">
+                                        Suprafata nu poate fi negativa sau egala cu 0.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Descriere</label>
+                                <input  type="text" class="form-control"
+                                    placeholder="Descriere" [(ngModel)]="propertyEdited.description"
+                                    name="description" #description="ngModel" required />
+                                <div
+                                    *ngIf="description.invalid  && (description.dirty || description.touched)">
+                                    <div class="form-error" *ngIf="description.errors.required">
+                                        Descriere nu este valida.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Pret prezis</label>
+                                <input type="number" class="form-control" placeholder="Pret prezis" [(ngModel)]="price"
+                                    name="predictedPrice" #predictedPrice="ngModel" min="0" (change)="updateError()" required  />
+                                <div *ngIf="predictedPrice.invalid  && (predictedPrice.dirty || predictedPrice.touched)">
+                                    <div class="form-error" *ngIf="predictedPrice.errors.required">
+                                        Pretul prezis nu este valid.
+                                    </div>
+                                </div>
+                                <div *ngIf="priceError">
+                                    <div class="form-error" *ngIf="price<=0">
+                                        Pretul prezis nu poate fi negativ sau egal cu 0.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" (click)="editModal.hide()">Inchide</button>
+                    <button type="submit" class="btn btn-primary" [disabled]="!userForm.form.valid">Salveaza</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

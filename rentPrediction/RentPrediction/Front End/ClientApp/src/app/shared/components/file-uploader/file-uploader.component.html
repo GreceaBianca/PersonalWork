@@ -1,0 +1,24 @@
+<p>file-uploader.component.html works!</p>
+<div class="col-md-12 p-0">
+    <button type="button" class="btn btn-primary btn-simple file-upload-btn" (click)="fileInput.click()">
+      <i class="fas fa-folder-open"></i>&nbsp; Select File
+    </button>
+    <input class="file-upload-input" type="file" #fileInput ng2FileSelect [uploader]="uploader" (change)="onChange()" (onFileSelected)="onFileDrop($event)" [accept]="mimeType" />
+  </div>
+  <div class="text-center text-muted mb-1">OR</div>
+  <div class="col-md-12 p-0">
+    <div ng2FileDrop [ngClass]="{'file-over': hasDropZoneOver}" (fileOver)="fileOverBase($event)" [uploader]="uploader"
+         class="box-placeholder file-drop-zone mb-0 text-center" (onFileDrop)="onFileDrop($event)">
+      <div class="text-muted"> Drop to upload </div>
+    </div>
+  </div>
+  <div class="col-md-12 p-0" *ngIf="file">
+    {{file.name}}
+    <i class="col-md-12 p-0 text-muted replace-file-text">To replace the file, simply select a different one...</i>
+  </div>
+  <div class="col-md-12 p-0" *ngIf="errors">
+    <div *ngFor="let err of errors" class="form-error">
+      {{err}}
+    </div>
+  </div>
+  

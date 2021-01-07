@@ -1,0 +1,16 @@
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\Data\taxi-fare-train.csv
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.BEModels.deps.json
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.BEModels.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.Entities.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.Entities.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\bin\Release\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.csprojAssemblyReference.cache
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.AssemblyInfoInputs.cache
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.AssemblyInfo.cs
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.csproj.CopyComplete
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.dll
+D:\Faculta\Licenta\licenta\RentPrediction\tesr\obj\Release\netstandard2.0\RentPrediction.BEModels.pdb

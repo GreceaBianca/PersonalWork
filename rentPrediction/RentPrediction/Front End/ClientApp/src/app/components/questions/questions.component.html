@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Intrebari frecvente:</h2>
+    <div class="questions">
+        <div class="question-container" *ngFor="let question of questions">
+            <div class="question">
+                {{question.question}}
+            </div>
+            <div class="answer">
+                {{question.answer}}
+            </div>
+        </div>
+    </div>
+</div>

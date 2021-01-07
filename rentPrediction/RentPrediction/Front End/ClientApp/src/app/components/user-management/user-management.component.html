@@ -1,0 +1,17 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="user-management">
+    <div class="sidenav">
+        <ul>
+            <li (click)="goToEdit()">Editeaza Profilul</li>
+            <li (click)="goToResetPassword()">Schimba Parola</li>
+            <li *ngIf="isAdmin" (click)="goToAdmin()">Utilizatori</li>
+            <li (click)="logout()">Iesire cont</li>
+            <li *ngIf="isAdmin" (click)="goToUserProperties()">Proprietatile mele</li>
+            <li (click)="goToFavoriteProperties()">Proprietati favorite</li>
+            <li *ngIf="isAdmin" (click)="startScraping()">Preleveaza date</li>
+        </ul>
+    </div>
+    <div class="user-management-content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

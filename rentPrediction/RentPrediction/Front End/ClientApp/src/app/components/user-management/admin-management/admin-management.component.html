@@ -1,0 +1,54 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="card-deck row">
+    <div class="col-md-12">
+        <div class="card properties-card">
+            <div class="card-header">
+                <h4 class="card-title"> Utilizatori</h4>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                                <th>
+                                    Nume
+                                </th>
+                                <th>
+                                    Rol
+                                </th>
+                                <th>
+                                    Actiuni
+                                </th>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let user of users">
+                                    <td>
+                                        {{user.username}}
+                                    </td>
+                                    <td *ngIf="user.roleId==1">
+                                        Utilizator de baza
+                                    </td>
+                                    <td *ngIf="user.roleId!==1">
+                                        Admin
+                                    </td>
+                                    <td class="action-buttons-td">
+                                        <button type="button" *ngIf="user.roleId==1"
+                                            class="btn btn-primary btn-simple btn-icon action-btn"
+                                            tooltip="Ofera rolul de Admin" (click)="makeAdmin(user)">
+                                            <i class="fa fa-arrow-up"></i>
+                                        </button>
+                                        <button type="button" *ngIf="user.roleId!==1"
+                                            class="btn btn-primary btn-simple btn-icon action-btn"
+                                            tooltip="Ofera rolul de baza" (click)="makeBasicUser(user)">
+                                            <i class="fa fa-arrow-down"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

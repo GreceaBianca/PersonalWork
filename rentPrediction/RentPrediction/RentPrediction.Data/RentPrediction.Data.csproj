@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200130150319_Initial.cs" />
+    <Compile Remove="Migrations\20200130150319_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200412124326_InitialMigrationFixes.cs" />
+    <Compile Remove="Migrations\20200412124326_InitialMigrationFixes.Designer.cs" />
+    <Compile Remove="Migrations\20200412124733_InitialMigrationFixes.cs" />
+    <Compile Remove="Migrations\20200412124733_InitialMigrationFixes.Designer.cs" />
+    <Compile Remove="Migrations\20200426160826_test.cs" />
+    <Compile Remove="Migrations\20200426160826_test.Designer.cs" />
+    <Compile Remove="Migrations\20200510143706_Partitioning.cs" />
+    <Compile Remove="Migrations\20200510143706_Partitioning.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentPrediction.Data.Entities\RentPrediction.Data.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\taxi-fare-train.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

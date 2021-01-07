@@ -1,0 +1,28 @@
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\MLModel.zip
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.deps.json
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.runtimeconfig.json
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.runtimeconfig.dev.json
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.Model.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.Model.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.AssemblyInfo.cs
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.csproj.CopyComplete
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\MLModel.zip
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.deps.json
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.runtimeconfig.json
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.runtimeconfig.dev.json
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.Model.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\bin\Debug\netcoreapp2.1\RentPredictionML.Model.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.csprojAssemblyReference.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.AssemblyInfoInputs.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.AssemblyInfo.cs
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.csproj.CopyComplete
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.ConsoleApp\obj\Debug\netcoreapp2.1\RentPredictionML.ConsoleApp.pdb

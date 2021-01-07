@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 27.84">
+  <title>compare_icon</title>
+  <g id="88ad7563-028a-418c-b137-b53e88474870" data-name="Layer 2">
+    <g id="d312ee39-7124-4763-ac92-3a15af8e2a87" data-name="Layer 1">
+      <g>
+        <line x1="34" y1="6.91" x2="4" y2="6.91" style="fill: none;stroke: #fff;stroke-width: 5px"/>
+        <line y1="20.91" x2="30" y2="20.91" style="fill: none;stroke: #fff;stroke-width: 5px"/>
+        <polygon points="13 0 13 13.87 0.06 6.98 13 0" style="fill: #fff"/>
+        <polygon points="21 27.84 21 13.97 33.94 20.85 21 27.84" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

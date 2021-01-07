@@ -1,0 +1,182 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="property-container">
+    <div class="property-header">
+        <div class="header-info1">
+            <div class="images">
+                <carousel [isAnimated]="true">
+                    <slide *ngFor="let image of srcData">
+                        <img [src]="image" style="display: block; width: 100%;">
+                    </slide>
+                </carousel>
+            </div>
+
+        </div>
+        <div class="header-info2">
+            <div class="main-infos">
+                <div class="property-title">
+                    <p>{{property.name}}</p>
+                </div>
+                <div class="property-favorite">
+                    <i *ngIf="!isFavorite" (click)="markAsFavorite()" tooltip="Salveaza in favorite" class="far fa-heart"></i>
+                    <i *ngIf="isFavorite" class="fas fa-heart"></i>
+                </div>
+            </div>
+            <div class="main-infos2">
+                <div class="property-price">
+                    <p>Pret: {{property.price}}</p>
+                    <p *ngIf="property.predictedPrice"> Pret prezis: {{predictedPrice}}€</p>
+                    <p *ngIf="!property.predictedPrice">Pret prezis: 0€</p>
+                </div>
+                <div class="property-description">
+                    <p class="description-title">Descriere:</p>
+                    <p *ngIf="property.description">{{property.description}}</p>
+                    <p *ngIf="!property.description"> Fara descriere</p>
+                    <small>Adugat in: {{property.creationDate | date}}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="!isLoading" class="property-infos">
+        <div class="property-info">
+            <div class="property-info-title" (click)="featuresExpanded = !featuresExpanded"
+                [attr.aria-expanded]="featuresExpanded" aria-controls="collapseFeature">
+                1.Specificatii
+            </div>
+            <div id="collapseFeature" [collapse]="!featuresExpanded" [isAnimated]="true">
+                <div class="property-info-value">
+                    <div class="features">
+                        <div *ngIf="!property.feature.hasBalcony" class="feature">
+                            <div class="feature-name">
+                                <p>Include balcon</p>
+                            </div>
+                            <div class="feature-value">
+                                fals
+                            </div>
+                        </div>
+                        <div *ngIf="property.feature.hasBalcony" class="feature">
+                            <div class="feature-name">
+                                <p>Numar Balcoane</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.numberOfBalconies}}
+                            </div>
+                        </div>
+                        <div *ngIf="!property.feature.hasParking" class="feature">
+                            <div class="feature-name">
+                                <p>Incluse locuri de parcare: </p>
+                            </div>
+                            <div class="feature-value">
+                                fals
+                            </div>
+                        </div>
+                        <div *ngIf="property.feature.hasParking" class="feature">
+                            <div class="feature-name">
+                                <p>Locuri de parcare</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.numberOfParkingSpots}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Vechime apartament</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.buildingSeniority}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Tip imobil:</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.buildingType}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Dotari</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.endowment}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Finisaj</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.finish}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Numar camere</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.numberOfRooms}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Numar Bai</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.numberOfBaths}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Suprafata</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.usableSurface}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Partitionare</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.feature.partitioning.name}}
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-name">
+                                <p>Tipul imobilului</p>
+                            </div>
+                            <div class="feature-value">
+                                {{property.propertyType.name}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="property-info">
+            <div class="property-info-title" (click)="addressExpanded = !addressExpanded"
+                [attr.aria-expanded]="addressExpanded" aria-controls="collapseAddress">
+                2.Adresa
+            </div>
+            <div id="collapseAddress" [collapse]="!addressExpanded" [isAnimated]="true">
+                <div class="property-info-value">
+                    <p> {{property.address.streetName}}</p>
+                    <p>Etaj: {{property.address.floor}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="property-info">
+            <div class="property-info-title" (click)="sourceExpanded = !sourceExpanded"
+                [attr.aria-expanded]="sourceExpanded" aria-controls="collapseSource">
+                3.Sursa
+            </div>
+            <div id="collapseSource" [collapse]="!sourceExpanded" [isAnimated]="true">
+                <div class="property-info-value">
+                    <a [href]="property.url"> {{property.url}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

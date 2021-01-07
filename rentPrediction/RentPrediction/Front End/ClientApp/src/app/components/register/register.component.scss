@@ -1,0 +1,104 @@
+.register-card {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    height: 550px;
+    box-shadow: 0px 0px 160px 9px #8a5e56;
+    background-color: black;
+    .title {
+        display: flex;
+        height: 40%;
+        font-size: 90px;
+        width: 100%;
+        font-weight: 700;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+
+        .subtitle {
+            font-size: 30px;
+            width: 100%;
+            font-weight: 100;
+        }
+    }
+    .register-form {
+        height: 60%;
+        width: 100%;
+
+        .register-form-content {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            display: flex;
+            text-align: center;
+
+            .column {
+                width: 50%;
+                height: 85%;
+                padding: 0 20px;
+            }
+
+            .name-row {
+                width: 50%;
+            }
+
+            .form-error{
+                display: hidden !important;
+                position: relative;
+                height: 19px;
+            }
+
+            .register-row {
+                max-height: 92px;
+                min-height: 92px;
+            }
+
+            .password-control {
+                width: calc(100% - 28px);
+            }
+
+            .icons {
+                position: absolute;
+                width: 30px;
+                left: 90%;
+                top: 32px;
+                margin: auto;
+                height: 38px;
+                color: black;
+                background-color: white;
+                display: flex;
+
+                i {
+                    margin: auto;
+                }
+
+                #eye-open {
+                    display: none;
+                }
+
+                #eye-close {
+                    display: block;
+                }
+
+                #eye-open2 {
+                    display: none;
+                }
+
+                #eye-close2 {
+                    display: block;
+                }
+            }
+
+        
+        }
+        .register-footer {
+            width: 100%;
+            height: 15%;
+            text-align: center;
+        }
+    }
+
+    button{
+        color: white;
+    }
+}

@@ -1,0 +1,86 @@
+<div class="login-card">
+    <div class="title">
+        <p>Login</p>
+        <p class="subtitle">Suntem fericiti sa te vedem.</p>
+    </div>
+    <div class="login-form">
+        <form #loginForm="ngForm" (ngSubmit)="save()">
+            <div class="row username-row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Nume utilizator</label>
+                        <input type="text" class="form-control" placeholder="Nume utilizator" [(ngModel)]="user.username"
+                            name="name" #name="ngModel" required />
+                        <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                            <div class="form-error" *ngIf="name.errors?.required">
+                              Nume utilizator invalid.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row password-row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Parola</label>
+                        <input  [type]="!seePassword ? 'password' : 'text'" class="password-control form-control" placeholder="Parola" [(ngModel)]="user.password"
+                            name="password" #password="ngModel" required />
+                            <div class="icons">
+                                <i id="eye-open" (click)="hidePassword()" class="fa fa-eye-slash fa-fw"></i>
+                                <i id="eye-close" (click)="showPassword()" class="fa fa-eye fa-fw"></i>
+                            </div>
+                            <div *ngIf="password.invalid  && (password.dirty || password.touched)">
+                            <div class="form-error" *ngIf="password.errors?.required">
+                              Parola nu este valida.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-footer">
+                <button type="submit" class="btn btn-outline-dark" [disabled]="!loginForm.form.valid">Login</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="left-button">
+            <button type="button" class="btn btn-outline-dark contact-button" (click)="openModal(modal)">Am uitat parola</button>
+        </div>
+        <div class="right-button">
+            <button type="button" class="btn btn-outline-dark contact-button" routerLink="/register">Inregistreaza</button>
+        </div>
+    </div>
+</div>
+
+
+
+<ng-template #modal>
+    <div class="modal-header">
+      <h4 class="modal-title pull-left">Am uitat parola</h4>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <form #emailForm="ngForm" (ngSubmit)="sendEmail()">
+      <div  class="modal-body hbert-column-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>Un email va fi trimis, va rugam sa verificati adresa de email la finalul procesului si daca nu ati primit mail-ul va rugam sa reincercati.</label>
+                <input type="text" class="form-control" placeholder="Email" [(ngModel)]="email" name="name"
+                  #name="ngModel" required />
+                <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                  <div class="form-error" *ngIf="name.errors?.required">
+                    Email-ul este obligatoriu
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" (click)="modalRef.hide()">Inchide</button>
+        <button type="submit" class="btn btn-primary" [disabled]="!emailForm.form.valid">Salveaza</button>
+      </div>
+    </form>
+  </ng-template>

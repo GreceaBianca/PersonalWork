@@ -1,0 +1,137 @@
+<div class="planet-container">
+    <div class="planets">
+        <div class="planet" *ngFor="let planet of planets">
+            <div class="planet-name">
+                {{planet.name}}
+            </div>
+
+            <div class="planet-feature">
+                <div class="first-feature">
+                    AgesUntilShutDown: {{planet.agesUntilShutDown}} years
+                </div>
+                <div class="second-feature">
+                    Power: {{planet.power}}
+                </div>
+            </div>
+            <div class="planet-feature">
+                <div class="first-feature">
+                    Hero: {{planet.hero.name}}
+                </div>
+                <div class="second-feature">
+                    Sidekick: {{planet.hero.sidekick.name}}
+                </div>
+            </div>
+            <div class="planet-feature">
+                <div class="second-feature">
+                    Population: {{planet.population}}
+                </div>
+              
+            </div>
+            <!-- <div class="actions">
+                <button type="button" (click)="openEditModal(template, planet)" class="btn btn-primary">
+                    Edit
+                </button>
+                <button type="button" (click)="delete(planet.id)" class="btn btn-primary">
+                    Delete
+                </button>
+            </div> -->
+        </div>
+    </div>
+    <!-- <div class="buttons">
+        <button type="button" (click)="openModal(template)" class="btn btn-primary">
+            Add new planet
+        </button>
+    </div> -->
+</div>
+
+<!-- <ng-template #template>
+    <div class="modal-header">
+        <h4 class="modal-title pull-left" *ngIf="!editMode">Add planet</h4>
+        <h4 class="modal-title pull-left" *ngIf="editMode">Edit planet</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="close()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <form #planetForm="ngForm" (ngSubmit)="save()">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Name" [(ngModel)]="planetClone.name"
+                            name="name" #name="ngModel" required />
+                        <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                            <div class="form-error" *ngIf="name.errors?.required">
+                                Name is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" min="0" class="form-control" placeholder="Age" [(ngModel)]="planetClone.age"
+                            name="age" #age="ngModel" required />
+                        <div *ngIf="age.invalid  && (age.dirty || age.touched)">
+                            <div class="form-error" *ngIf="age.errors?.required">
+                                Age is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Power</label>
+                        <input type="number" min="0" max="10" class="form-control" placeholder="Power"
+                            [(ngModel)]="planetClone.power" name="power" #power="ngModel" required />
+                        <div *ngIf="power.invalid  && (power.dirty || power.touched)">
+                            <div class="form-error" *ngIf="power.errors?.required">
+                                Power is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="btn-group" dropdown>
+                            <button id="button-disabled-menu" dropdownToggle type="button"
+                                class="btn btn-primary dropdown-toggle" aria-controls="dropdown-disabled-menu">
+                                Sidekicks:  <span class="caret"></span>
+                            </button>
+                            <ul id="dropdown-disabled-menu" *dropdownMenu class="dropdown-menu" role="menu"
+                                aria-labelledby="button-disabled-menu">
+                                <li role="menuitem" *ngFor="let sidekick of sidekicks" (click)="planetClone.sidekick=sidekick"><a class="dropdown-item">{{sidekick.name}}</a></li>
+                            </ul>
+                        </div>
+                        <label>Selected: {{planetClone.sidekick.name}}</label>
+                        <div *ngIf="power.invalid  && (power.dirty || power.touched)">
+                            <div class="form-error" *ngIf="power.errors?.required">
+                                Sidekick is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Is Evil</label>
+                        <input type="checkbox" class="form-control" [(ngModel)]="planetClone.isEvil" name="isEvil"
+                            #isEvil="ngModel"  />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" (click)="close()">Close</button>
+            <button type="submit" class="btn btn-primary" [disabled]="!planetForm.form.valid">Save</button>
+        </div>
+    </form>
+</ng-template> -->

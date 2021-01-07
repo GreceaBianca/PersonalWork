@@ -1,0 +1,123 @@
+.top-logo {
+    position: relative;
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    background-color: #ff501b;
+    span {
+      color: white;
+      font-size: 38px;
+      font-family: HelveticaNeueBold;
+      padding: 30px 0 0 30px;
+    }
+  }
+  
+  .bottom-logo {
+    margin-left: 14px;
+    position: absolute;
+    bottom: 27px;
+  
+    img {
+      height: 100px;
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  .logo.top-logo::after {
+    display: none;
+  }
+  
+  .sidebar-wrapper {
+    height: calc(100vh - 57px);
+    background-color: #ff501b;
+    padding: 0;
+  
+    .sidenav-elements {
+      margin-top: 70px;
+      height: calc(85% - 150px);
+      overflow: auto;
+  
+      .sidenav-element {
+        margin: 25px 30px;
+        margin-right: 0px;
+        padding: 0;
+        position: relative;
+        cursor: pointer;
+  
+        .sidenav-text {
+          font-size: 18px;
+          height: 100%;
+          color: white;
+          width: 100%;
+        }
+        .active-hover {
+          width: 0;
+          height: 3px;
+          transition: width 0.5s;
+        }
+      }
+  
+      .sidenav-element:hover {
+        .active-hover {
+          width: 90px;
+          background-color: white;
+        }
+      }
+    }
+  }
+  
+  .sidenav-element-child {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .child-active {
+    visibility: visible;
+    display: block;
+    height: auto;
+    transition-duration: 1s;
+    opacity: 1;
+  }
+  
+  .child-inactive {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    display: none;
+  }
+  
+  .active {
+    .active-hover {
+      width: 90px !important;
+      background-color: white;
+    }
+  }
+  
+  .caret {
+    color: white;
+  }
+  
+  /////////Scrollbar styling /////////
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ebecf1;
+    opacity: 0.5;
+    border: 1px solid #707070;
+    border-radius: 7px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #d73f11;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bc360d;
+  }
+  

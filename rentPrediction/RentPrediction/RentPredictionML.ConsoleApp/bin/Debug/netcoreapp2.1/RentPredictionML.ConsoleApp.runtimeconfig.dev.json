@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\BLISSOFT SOLUTIONS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}

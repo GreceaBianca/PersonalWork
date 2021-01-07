@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentPrediction.Data.Entities\RentPrediction.Data.Entities.csproj" />
+    <ProjectReference Include="..\RentPrediction.Data\RentPrediction.Data.csproj" />
+    <ProjectReference Include="..\RentPrediction.Repo.Contracts\RentPrediction.Repo.Contracts.csproj" />
+    <ProjectReference Include="..\tesr\RentPrediction.BEModels.csproj" />
+  </ItemGroup>
+
+</Project>

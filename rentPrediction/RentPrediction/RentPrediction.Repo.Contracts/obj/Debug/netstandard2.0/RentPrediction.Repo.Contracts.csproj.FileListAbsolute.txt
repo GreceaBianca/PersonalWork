@@ -1,0 +1,37 @@
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.deps.json
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.csprojAssemblyReference.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.AssemblyInfoInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.AssemblyInfo.cs
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.csproj.CopyComplete
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.deps.json
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.csprojAssemblyReference.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.AssemblyInfoInputs.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.AssemblyInfo.cs
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.csproj.CopyComplete
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Repo.Contracts\obj\Debug\netstandard2.0\RentPrediction.Repo.Contracts.csproj.CoreCompileInputs.cache

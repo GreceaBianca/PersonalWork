@@ -1,0 +1,92 @@
+.login-card {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    height: 550px;
+    display: block;
+    box-shadow: 0px 0px 160px 9px #8a5e56;
+    background-color: black;
+    .title {
+        display: flex;
+        height: 40%;
+        font-size: 90px;
+        width: 100%;
+        font-weight: 700;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+
+        .subtitle {
+            font-size: 30px;
+            width: 100%;
+            font-weight: 100;
+        }
+    }
+    .login-form {
+        width: 50%;
+        margin: auto;
+        height: 50%;
+        text-align: center;
+
+        .password-row {
+            max-height: 92px;
+            min-height: 92px;
+        }
+        .password-control {
+            width: calc(100% - 28px);
+        }
+
+        .username-row {
+            max-height: 92px;
+            min-height: 92px;
+        }
+        button{
+            color: white;
+
+        }
+
+        .icons {
+            position: absolute;
+            width: 30px;
+            left: 90%;
+            top: 32px;
+            margin: auto;
+            height: 38px;
+            color: black;
+            background-color: white;
+            display: flex;
+
+            i {
+                margin: auto;
+            }
+
+            #eye-open {
+                display: none;
+            }
+
+            #eye-close {
+                display: block;
+            }
+        }
+    }
+    .footer {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        height: 10%;
+
+        .right-button {
+            width: 50%;
+            margin-right: 20px;
+            text-align: right;
+        }
+        .left-button {
+            margin-left: 20px;
+            text-align: left;
+            width: 50%;
+        }
+    }
+    button {
+        color: white;
+    }
+}

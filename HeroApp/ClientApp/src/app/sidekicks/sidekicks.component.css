@@ -1,0 +1,58 @@
+.sidekick {
+  width: 28%;
+  padding: 30px;
+  display: grid;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+  height: 200px;
+}
+.sidekicks {
+  width: 85%;
+  padding: 30px;
+  margin: 35px auto;
+  display: flex;
+  -webkit-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  height: 100%;
+}
+.sidekick-name {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 25px;
+  font-style: italic;
+}
+.sidekick-feature {
+  display: flex;
+  border-top: 1px solid;
+  width: 90%;
+  margin: auto;
+}
+.age {
+  width: 50%;
+  border-right: 1px solid black;
+  text-align: center;
+  display: block;
+}
+.power {
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+.buttons{
+  width: 85%;
+  padding: 30px;
+  margin: 35px auto;
+  display: flex;
+}
+.actions button{
+  width: 40%;
+  margin: auto;
+}
+.actions{
+  display: flex;
+  margin: 10px 0;
+}
+

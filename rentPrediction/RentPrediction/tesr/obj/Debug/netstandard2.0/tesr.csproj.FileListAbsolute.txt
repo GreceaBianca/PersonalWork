@@ -1,0 +1,2 @@
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\tesr.AssemblyInfoInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\source\repos\RentPrediction\tesr\obj\Debug\netstandard2.0\tesr.AssemblyInfo.cs

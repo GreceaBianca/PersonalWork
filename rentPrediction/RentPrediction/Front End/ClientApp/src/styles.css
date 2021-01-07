@@ -1,0 +1,265 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* @import "./assets/scss/now-ui-dashboard.scss"; */
+
+/* @import "./assets/fonts/helvetica-neue/helvetica-neue.scss"; */
+/*@import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';*/
+
+body {
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-right: 0px !important;
+  min-height: 100% !important;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+select.form-control {
+  padding: 6px 18px !important;
+}
+
+.form-error {
+  color: red;
+  font-size: 13px;
+}
+
+.main-content {
+  margin-top: 0px !important;
+  padding-top: 100px !important;
+  min-height: 100vh !important;
+}
+
+
+.swal2-title {
+  font-size: 20px !important;
+}
+
+.swal2-content, .swal2-icon, .swal2-confirm, .swal2-cancel, .swal2-actions {
+  font-size: 14px !important;
+}
+
+.swal2-confirm {
+  background: #FF501B !important;
+}
+
+
+.rent-table-container {
+  height: 460px;
+  overflow: auto;
+}
+
+.action-buttons-td {
+  padding: 0px !important;
+  width: 90px;
+}
+
+.action-btn {
+  border: none;
+  background: white;
+}
+
+.modal-title {
+  margin-top: 0px;
+}
+
+.modal-footer {
+  height: 60px;
+}
+  .modal-footer  button {
+    margin: 0px 5px;
+  }
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebecf1;
+  opacity: 0.5;
+  border: 1px solid #707070;
+  border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #707070;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: dimgray;
+}
+
+
+
+/* Styling Checkbox Starts */
+.rent-checkbox {
+  width: fit-content;
+  margin-left: 10px;
+  clear: both;
+  display: block;
+  padding: 0px 0px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+
+
+.rent-checkbox::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+
+.checkbox-label {
+  display: block;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 18px;
+  height: 18px;
+  width: 18px;
+  clear: both;
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border: 2px solid whitesmoke;
+}
+
+
+.checkbox-label input:checked ~ .checkbox-custom {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  -webkit-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: 1px solid grey;
+}
+
+
+.checkbox-label input:disabled ~ .checkbox-custom {
+  background-color: whitesmoke;
+  border: 1px solid grey;
+}
+
+
+.checkbox-label .checkbox-custom::after {
+  position: absolute;
+  content: "";
+  left: 12px;
+  top: 12px;
+  height: 0px;
+  width: 0px;
+  border-radius: 5px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+
+.checkbox-label input:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 5px;
+  top: 1px;
+  width: 7px;
+  height: 12px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.checkbox-label input[disabled]:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 7px;
+  top: 2px;
+  width: 8px;
+  height: 15px;
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* For Ripple Effect */
+.checkbox-label .checkbox-custom::before {
+  position: absolute;
+  content: "";
+  left: 10px;
+  top: 10px;
+  width: 0px;
+  height: 0px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::before {
+  left: -3px;
+  top: -3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  opacity: 0;
+  z-index: 999;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+

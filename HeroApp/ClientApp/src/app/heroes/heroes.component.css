@@ -1,0 +1,68 @@
+.hero {
+    width: 28%;
+    padding: 30px;
+    display: grid;
+    margin: auto;
+    -webkit-box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 121px -64px rgba(0, 0, 0, 0.75);
+    height: 200px;
+  }
+  .heros {
+    width: 85%;
+    padding: 30px;
+    margin: 35px auto;
+    display: flex;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    height: 100%;
+  }
+  .hero-name {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    font-style: italic;
+  }
+  .hero-feature {
+    display: flex;
+    border-top: 1px solid;
+    width: 90%;
+    margin: auto;
+  }
+  .first-feature {
+    width: 50%;
+    border-right: 1px solid black;
+    text-align: center;
+    display: block;
+  }
+  .second-feature {
+    width: 50%;
+    text-align: center;
+    display: block;
+  }
+  .buttons{
+    width: 85%;
+    padding: 30px;
+    margin: 35px auto;
+    display: flex;
+  }
+  .actions button{
+    width: 40%;
+    background-color: red !important;
+    margin: auto;
+  }
+  .actions{
+    display: flex;
+    margin: 10px 0;
+  }
+  #evil{
+    width: auto;
+    display: inline-table;
+    height: auto;
+    margin-left: 15px;
+  }
+  .modal-dropdown{
+    width: 100%;
+  }
+  

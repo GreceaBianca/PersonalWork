@@ -1,0 +1,44 @@
+.card-deck {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+  
+    .card-deck-row{
+      width: 100%;
+    }
+  
+    .card-deck-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .property {
+      max-width: 450px;
+      margin: 10px auto;
+    }
+  }
+  
+ 
+//Pagination
+pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-btn {
+  a {
+    background-color: transparent !important;
+    border-color: dimgray !important;
+    color: white !important;
+  }
+  .page-item.active {
+    background-color: white !important;
+    border-color: dimgray !important;
+    a {
+      color: black !important;
+    }
+  }
+}
+  
+ 
+  

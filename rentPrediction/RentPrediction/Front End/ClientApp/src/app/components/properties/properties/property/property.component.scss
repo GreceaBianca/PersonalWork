@@ -1,0 +1,132 @@
+.property-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    height: 80vh;
+    padding: 20px 40px;
+    display: block;
+    border: 1 px solid dimgray;
+    border-radius: 7px;
+    box-shadow: 0px 0px 160px 9px #8a5e56;
+    background-color: white;
+    color: black;
+    overflow: auto;
+    p {
+        margin-bottom: 0;
+    }
+
+    .property-header {
+        height: 40%;
+        width: 100%;
+        display: flex;
+
+        .header-info1 {
+            width: 35%;
+            .images {
+                width: 80%;
+                margin: auto;
+            }
+        }
+
+        .header-info2 {
+            width: 65%;
+            position: relative;
+            .main-infos {
+                height: 25%;
+                display: flex;
+                width: 100%;
+                .property-title {
+                    font-size: 24px;
+                    font-weight: 900;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .property-favorite {
+                    width: 100%;
+                    right: -16px;
+                    position: absolute;
+                    text-align: right;
+                    i:hover {
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+            .main-infos2 {
+                height: 75%;
+                width: 100%;
+                display: flex;
+                .property-price {
+                    width: 50%;
+                    font-size: 18px;
+                    font-weight: 700;
+                    justify-content: center;
+                    margin: auto;
+                }
+
+                .property-description {
+                    width: 50%;
+                    justify-content: center;
+                    margin: auto;
+                    .description-title {
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-bottom: 0;
+                    }
+                    small {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .property-infos {
+        height: 55%;
+        display: block;
+        .property-info {
+            border: 1px solid dimgray;
+            margin-top: 15px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 7px;
+            -webkit-box-shadow: 0px 0px 10px 2px rgba(138, 94, 86, 0.51);
+            -moz-box-shadow: 0px 0px 10px 2px rgba(138, 94, 86, 0.51);
+            box-shadow: 0px 0px 10px 2px rgba(138, 94, 86, 0.51);
+
+            .property-info-title {
+                cursor: pointer;
+                border-bottom: 1px solid white;
+            }
+
+            .property-info-value {
+                display: flex;
+                p{
+                    width: 100%;
+                }
+            }
+
+            .features {
+                width: 45%;
+                margin: auto;
+                .feature {
+                    display: flex;
+                    .feature-name {
+                        width: 40%;
+                    }
+                    .feature-value {
+                        width: 60%;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

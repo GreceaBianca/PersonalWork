@@ -1,0 +1,13 @@
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="card-deck row">
+    <div class="card-deck-row" *ngIf="totalItems!==0">
+        <div class="content-wrapper card-deck-wrapper">
+            <div class="property" *ngFor="let property of propertiesReturnedArray" >
+                <property-card [property]="property"></property-card>
+            </div>
+        </div> 
+        <pagination [totalItems]="totalItems" [itemsPerPage]="itemsPerPage" [(ngModel)]="currentPage" (pageChanged)="pageChanged($event)"
+            [maxSize]="pagesDisplayed" [rotate]="true" [boundaryLinks]="true" previousText="&lsaquo;" nextText="&rsaquo;"
+            firstText="&laquo;" lastText="&raquo;" ></pagination>
+    </div>
+</div>

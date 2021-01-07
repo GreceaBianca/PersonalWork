@@ -1,0 +1,172 @@
+<div class="navbar properties-navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-brand">Filtre:</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item  date-filter">
+                <div role="menuitem">
+                    <div class="input-group ">
+                        <input type="text" class="form-control" bsDatepicker placeholder="Data adaugare"
+                            [bsConfig]=" { containerClass: 'theme-default' }" [maxDate]="maxDate"
+                            (bsValueChange)="onDateChange($event)">
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="filter-dropdown  btn-group" dropdown #dropdown="bs-dropdown" [autoClose]="false">
+                    <button dropdownToggle type="button" class="btn  dropdown-toggle  btn-outline-dark">
+                        Specificatii <span class="caret"></span>
+                    </button>
+                    <ul id="dropdown-triggers-manual" *dropdownMenu class="dropdown-menu" role="menu"
+                        aria-labelledby="button-triggers-manual">
+                        <li role="menuitem">
+                            <div class="filters">
+                                <div class="filter-item">
+                                    <div class="filter-name">
+                                        Are balcon
+                                    </div>
+                                    <div class="filter-value">
+                                        <div class="checkbox-pre-container">
+                                            <div class="checkbox-container">
+                                                <label class="checkbox-label">
+                                                    <input type="checkbox"
+                                                        [(ngModel)]="propertyFilter.feature.hasBalcony" name="balcony">
+                                                    <span class="checkbox-custom "></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-item">
+                                    <div class="filter-name">
+                                        Are gradina
+                                    </div>
+                                    <div class="filter-value">
+                                        <div class="checkbox-pre-container">
+                                            <div class="checkbox-container">
+                                                <label class="checkbox-label">
+                                                    <input type="checkbox"
+                                                        [(ngModel)]="propertyFilter.feature.hasGarden" name="garden">
+                                                    <span class="checkbox-custom "></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-item">
+                                    <div class="filter-name">
+                                        Are parcare
+                                    </div>
+                                    <div class="filter-value">
+                                        <div class="checkbox-pre-container">
+                                            <div class="checkbox-container">
+                                                <label class="checkbox-label">
+                                                    <input type="checkbox"
+                                                        [(ngModel)]="propertyFilter.feature.hasParking" name="parking">
+                                                    <span class="checkbox-custom "></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div *ngIf="propertyFilter.feature.hasBalcony" class="filter-item-number">
+                                    <div class="filter-name">
+                                       Numar balcoane
+                                    </div>
+                                    <div class="filter-value">
+                                        <input type="number" class="number"
+                                            [(ngModel)]="propertyFilter.feature.numberOfBalconies"
+                                            name="numberOfBalconies">
+                                    </div>
+                                </div>
+                                <div class="filter-item-number">
+                                    <div class="filter-name">
+                                        Numar bai
+                                    </div>
+                                    <div class="filter-value">
+                                        <input type="number" class="number"
+                                            [(ngModel)]="propertyFilter.feature.numberOfBaths" name="numberOfBaths">
+                                    </div>
+                                </div>
+                                <div *ngIf="propertyFilter.feature.hasParking" class="filter-item-number">
+                                    <div class="filter-name">
+                                        Numar locuri de parcare
+                                    </div>
+                                    <div class="filter-value">
+                                        <input type="number" class="number"
+                                            [(ngModel)]="propertyFilter.feature.numberOfParkingSpots"
+                                            name="numberOfParkingSpots">
+                                    </div>
+                                </div>
+                                <div class="filter-item-number">
+                                    <div class="filter-name">
+                                        Numar camere
+                                    </div>
+                                    <div class="filter-value">
+                                        <input type="number" class="number"
+                                            [(ngModel)]="propertyFilter.feature.numberOfRooms" name="parking">
+                                    </div>
+                                </div>
+                                <div class="filter-item-number">
+                                    <div class="filter-name">
+                                        Suprafata
+                                    </div>
+                                    <div class="filter-value">
+                                        <input type="number" class="number" [(ngModel)]="propertyFilter.usableSurface"
+                                            name="usableSurface">
+                                    </div>
+                                </div>
+                                <div class="filter-item-slider">
+                                    <div class="filter-name">
+                                        Pret Maxim
+                                        <span *ngIf="propertyFilter.price">{{propertyFilter.price}} €</span>
+                                    </div>
+                                    <div class="filter-value">
+                                        <div class="slidecontainer">
+                                            <input type="range" class="form-control-range slider" [min]="minPriceValue"
+                                                [max]="maxPriceValue" [(ngModel)]="propertyFilter.price"
+                                                value="priceValue">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider dropdown-divider"></li>
+                        <li role="menuitem">
+                            <div class="btn-actions">
+                                <button class="btn  btn-outline-dark" (click)="applyFilters()">Aplica</button>
+                                <button class="btn  btn-outline-dark" (click)="resetFilters()">Reseteaza</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li *ngIf="showReset" class="nav-item">
+                <button class="btn btn-outline-dark reset-btn" (click)="resetFilters()">Reseteaza</button>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-container">
+            <input [(ngModel)]="propertySearchString" class="form-control mr-sm-2" type="search" placeholder="Cauta"
+                aria-label="Search" name="search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" (click)="filterName()">Cauta</button>
+        </form>
+    </div>
+</div>
+<rent-loader *ngIf="isLoading"></rent-loader>
+<div [hidden]="isLoading" class="card-deck row">
+    <div class="card-deck-row" *ngIf="totalItems!==0">
+        <div class="content-wrapper card-deck-wrapper">
+            <div class="property" (click)="goToProperty(property.id)" *ngFor="let property of propertiesReturnedArray">
+                <property-card [property]="property"></property-card>
+            </div>
+        </div>
+        <pagination class="pagination-btn" [totalItems]="totalItems" [itemsPerPage]="itemsPerPage"
+            [(ngModel)]="currentPage" (pageChanged)="pageChanged($event)" [maxSize]="pagesDisplayed" [rotate]="true"
+            [boundaryLinks]="true" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
+        </pagination>
+    </div>
+</div>

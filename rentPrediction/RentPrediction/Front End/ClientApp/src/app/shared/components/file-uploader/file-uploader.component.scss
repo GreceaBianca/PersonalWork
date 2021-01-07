@@ -1,0 +1,24 @@
+.file-upload-btn {
+    width: 100%;
+    margin: 0px;
+}
+
+.file-upload-input {
+width: 0px !important;
+}
+
+.file-drop-zone {
+height: 50px;
+background-color: #ebecf1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.file-over {
+border: dotted 1px #f96332;
+}
+
+.replace-file-text {
+float: right;
+}

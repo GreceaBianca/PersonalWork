@@ -1,0 +1,132 @@
+<div class="hero-container">
+    <div class="heros">
+        <div class="hero" *ngFor="let hero of heros">
+            <div class="hero-name">
+                {{hero.name}}
+            </div>
+
+            <div class="hero-feature">
+                <div class="first-feature">
+                    Age: {{hero.age}} years
+                </div>
+                <div class="second-feature">
+                    Power: {{hero.power}}/10
+                </div>
+            </div>
+            <div class="hero-feature">
+                <div class="first-feature">
+                    Is Evil: {{hero.isEvil}}
+                </div>
+                <div class="second-feature">
+                    Sidekick: {{hero.sidekick.name}}
+                </div>
+            </div>
+
+            <div class="actions">
+                <button type="button" (click)="openEditModal(template, hero)" class="btn btn-primary">
+                    Edit
+                </button>
+                <button type="button" (click)="delete(hero.id)" class="btn btn-primary">
+                    Delete
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button type="button" (click)="openModal(template)" class="btn btn-primary">
+            Add new hero
+        </button>
+    </div>
+</div>
+
+<ng-template #template>
+    <div class="modal-header">
+        <h4 class="modal-title pull-left" *ngIf="!editMode">Add hero</h4>
+        <h4 class="modal-title pull-left" *ngIf="editMode">Edit hero</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="close()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <form #heroForm="ngForm" (ngSubmit)="save()">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Name" [(ngModel)]="heroClone.name"
+                            name="name" #name="ngModel" required />
+                        <div *ngIf="name.invalid  && (name.dirty || name.touched)">
+                            <div class="form-error" *ngIf="name.errors?.required">
+                                Name is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" min="0" class="form-control" placeholder="Age" [(ngModel)]="heroClone.age"
+                            name="age" #age="ngModel" required />
+                        <div *ngIf="age.invalid  && (age.dirty || age.touched)">
+                            <div class="form-error" *ngIf="age.errors?.required">
+                                Age is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Power</label>
+                        <input type="number" min="0" max="10" class="form-control" placeholder="Power"
+                            [(ngModel)]="heroClone.power" name="power" #power="ngModel" required />
+                        <div *ngIf="power.invalid  && (power.dirty || power.touched)">
+                            <div class="form-error" *ngIf="power.errors?.required">
+                                Power is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="btn-group modal-dropdown" dropdown>
+                            <button id="button-disabled-menu" dropdownToggle type="button"
+                                class="btn btn-primary dropdown-toggle modal-dropdown" aria-controls="dropdown-disabled-menu">
+                                Sidekicks:  <span class="caret"></span>
+                            </button>
+                            <ul id="dropdown-disabled-menu" *dropdownMenu class="dropdown-menu" role="menu"
+                                aria-labelledby="button-disabled-menu">
+                                <li role="menuitem" *ngFor="let sidekick of sidekicks" (click)="heroClone.sidekick=sidekick"><a class="dropdown-item">{{sidekick.name}}</a></li>
+                            </ul>
+                        </div>
+                        <label>Selected: {{heroClone.sidekick.name}}</label>
+                        <div *ngIf="power.invalid  && (power.dirty || power.touched)">
+                            <div class="form-error" *ngIf="power.errors?.required">
+                                Sidekick is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Is Evil</label>
+                        <input type="checkbox" id="evil" class="form-control" [(ngModel)]="heroClone.isEvil" name="isEvil"
+                            #isEvil="ngModel"  />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" (click)="close()">Close</button>
+            <button type="submit" class="btn btn-primary" [disabled]="!heroForm.form.valid||heroClone.sidekick.name===''">Save</button>
+        </div>
+    </form>
+</ng-template>

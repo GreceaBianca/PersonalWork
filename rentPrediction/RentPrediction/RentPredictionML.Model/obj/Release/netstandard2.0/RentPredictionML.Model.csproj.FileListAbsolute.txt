@@ -1,0 +1,9 @@
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\bin\Release\netstandard2.0\MLModel.zip
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\bin\Release\netstandard2.0\RentPredictionML.Model.deps.json
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\bin\Release\netstandard2.0\RentPredictionML.Model.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\bin\Release\netstandard2.0\RentPredictionML.Model.pdb
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\obj\Release\netstandard2.0\RentPredictionML.Model.csprojAssemblyReference.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\obj\Release\netstandard2.0\RentPredictionML.Model.AssemblyInfoInputs.cache
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\obj\Release\netstandard2.0\RentPredictionML.Model.AssemblyInfo.cs
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\obj\Release\netstandard2.0\RentPredictionML.Model.dll
+D:\Faculta\Licenta\licenta\RentPrediction\RentPredictionML.Model\obj\Release\netstandard2.0\RentPredictionML.Model.pdb
