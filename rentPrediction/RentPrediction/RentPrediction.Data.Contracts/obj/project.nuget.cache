@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SlvS5pSiLBKN5S+IobmlW9zQlUjpM7Lz39XFQpZVEGCAq46hfamnwe33nmVqSwN0Y3qhtey5/3WIuQjiuxy7rQ==",
+  "dgSpecHash": "n+RdSF6914l1xzmRgg9x/AS3XjqV42e9/9Bug0ZZxWEufuvYtpwgHbbckMs0LxNZ9uJxBjo8nYCQfB9X3ezUbA==",
   "success": true,
-  "projectFilePath": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

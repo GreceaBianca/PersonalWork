@@ -22,3 +22,27 @@ D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Business.ML\obj\Debug\n
 D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.dll
 D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.pdb
 D:\Faculta\Licenta\licenta\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CoreCompileInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.deps.json
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPredictionML.Model.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPredictionML.Model.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csprojAssemblyReference.cache
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.AssemblyInfoInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.AssemblyInfo.cs
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CoreCompileInputs.cache
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CopyComplete
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.dll
+C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.pdb

@@ -6704,11 +6704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Business.ML\\RentPrediction.Business.ML.csproj",
+      "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Business.ML\\RentPrediction.Business.ML.csproj",
       "projectName": "RentPrediction.Business.ML",
-      "projectPath": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Business.ML\\RentPrediction.Business.ML.csproj",
+      "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Business.ML\\RentPrediction.Business.ML.csproj",
       "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-      "outputPath": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Business.ML\\obj\\",
+      "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Business.ML\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6726,12 +6726,13 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Business.Contracts\\RentPrediction.Business.Contracts.csproj": {
-              "projectPath": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPrediction.Business.Contracts\\RentPrediction.Business.Contracts.csproj"
+            "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Business.Contracts\\RentPrediction.Business.Contracts.csproj": {
+              "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Business.Contracts\\RentPrediction.Business.Contracts.csproj"
             },
-            "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPredictionML.Model\\RentPredictionML.Model.csproj": {
-              "projectPath": "D:\\Faculta\\Licenta\\licenta\\RentPrediction\\RentPredictionML.Model\\RentPredictionML.Model.csproj"
+            "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPredictionML.Model\\RentPredictionML.Model.csproj": {
+              "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPredictionML.Model\\RentPredictionML.Model.csproj"
             }
           }
         }
@@ -6744,6 +6745,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
@@ -6770,7 +6772,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
