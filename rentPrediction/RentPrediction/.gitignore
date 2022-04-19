@@ -5,6 +5,8 @@
 /.vs/Front End
 /RentPrediction.Data/obj
 /RentPrediction.Data/bin
+/RentPrediction.Data.Contracts/obj
+/RentPrediction.Data.Contracts/bin
 /RentPrediction.Business.Contracts/bin
 /RentPrediction.Business.Contracts/obj
 /RentPrediction.Business/bin
@@ -28,4 +30,7 @@
 /RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.dgspec.json
 /RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.g.props
 /RentPrediction.sln.DotSettings.user
+/RentPrediction/RentPrediction.Business.ML/obj
+rentPrediction/RentPrediction/RentPrediction.Business.ML/obj
 *.pdf
+*.cache
