@@ -25,3 +25,6 @@ rentPrediction/RentPrediction/RentPrediction.Repo.Contracts/obj/Debug/netstandar
 rentPrediction/RentPrediction/RentPrediction.Repo.Contracts/obj/Debug/netstandard2.0/RentPrediction.Repo.Contracts.csprojAssemblyReference.cache
 rentPrediction/RentPrediction/RentPrediction.Repo.Contracts/obj/project.assets.json
 *.cache
+rentPrediction/RentPrediction/RentPrediction.Repo/obj/Debug/netstandard2.0/RentPrediction.Repo.csprojAssemblyReference.cache
+rentPrediction/RentPrediction/RentPredictionML.ConsoleApp/obj/Debug/netcoreapp2.1/RentPredictionML.ConsoleApp.csprojAssemblyReference.cache
+rentPrediction/RentPrediction/RentPrediction.Business.ML/obj/Debug/netstandard2.0/RentPrediction.Business.ML.csprojAssemblyReference.cache
