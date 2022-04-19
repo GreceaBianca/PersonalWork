@@ -1,0 +1,65 @@
+Price,UsableSurface,PropertyType,Neighborhood,Zone,Floor,MaxFloor,HasBalcony,HasParking,HasGarden,HasHeating,NumberOfRooms,NumberOfBaths,NumberOfBalconies,NumberOfParkingSpots,BuildingSeniority,BuildingType,Endowment,Finish,Partitioning
+350,60,Garsoniera,Zorilor,Sigma Center,2,8,True,False,False,False,2,1,1,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+400,86,Garsoniera,Marasti,Cinema Marasti,2,4,True,False,False,False,4,2,2,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+430,55,Garsoniera,Grigorescu,P-ta 14 Iulie,3,4,True,True,False,False,2,1,1,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+210,38,Garsoniera,Floresti,Porii,3,3,True,True,False,False,1,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+450,55,Garsoniera,Manastur,Bogdan Voda,Parter,4,True,False,False,False,3,1,1,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+700,60,Garsoniera,Central,Parcul Central,1,4,True,True,False,False,3,1,2,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+260,80,Garsoniera,Manastur,Calea Manastur,Parter,8,False,False,False,False,1,1,0,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+400,44,Garsoniera,Marasti,Expo Transilvania,1,2,False,True,False,False,2,1,0,1,Nou," Casa - vila"," Mobilat/utilat"," Finisat",Decomandat
+450,70,Garsoniera,Floresti,Vivo (Polus Center),1,6,True,True,False,False,3,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+750,85,Garsoniera,Buna Ziua,Lidl,8,8,False,True,False,False,3,2,0,3,Nou," Bloc de apartamente"," Nemobilat"," Finisat",Semidecomandat
+350,60,Garsoniera,Floresti,Vivo (Polus Center),3,8,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+230,60,Garsoniera,Floresti,Profi,1,3,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+350,60,Garsoniera,Manastur,Calea Floresti,5,10,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+320,54,Garsoniera,Grigorescu,P-ta 14 Iulie,1,4,True,True,False,False,2,1,1,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+380,54,Garsoniera,Manastur,Nora,2,2,True,True,False,False,2,1,1,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+490,67,Garsoniera,Marasti,Bucuresti,6,8,True,True,False,False,3,2,1,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+350,67,Garsoniera,Central,Traian,2,7,True,False,False,False,1,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+600,50,Garsoniera,Central,Regionala CFR,6,11,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+250,56,Garsoniera,Floresti,Eroilor,1,3,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+330,56,Garsoniera,Central,Avram Iancu,1,1,False,False,False,False,1,1,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+200,35,Garsoniera,Floresti,Cetatii,Mansarda,3,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+250,70,Garsoniera,Grigorescu,P-ta 14 Iulie,1,1,False,True,False,False,1,1,0,1,Vechi," Casa - vila"," Mobilat/utilat"," Finisat",Semidecomandat
+1200000,100,Garsoniera,Central,P-ta Unirii,1,1,False,True,False,False,3,2,0,1,Nou," Bloc de apartamente"," Nemobilat"," Modern/lux",Decomandat
+550,100,Garsoniera,Zorilor,Sigma Center,1,4,True,False,False,False,3,2,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+400,80,Garsoniera,Zorilor,Sigma Center,2,3,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+360,20,Garsoniera,Central,P-ta Muzeului,Demisol,1,False,False,False,False,1,1,0,0,Nou," Casa - vila"," Modern/lux"," Modern/lux",Semidecomandat
+190,35,Garsoniera,Gheorgheni,Liviu Rebreanu,1,4,False,False,False,False,1,1,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+230,15,Garsoniera,Floresti,Florilor,3,4,False,True,False,False,2,1,0,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+450,40,Garsoniera,Gheorgheni,Iulius Mall,9,10,True,True,False,False,1,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+350,74,Garsoniera,Manastur,Vivo (Polus Center),Parter,7,True,False,False,False,3,2,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+420,85,Garsoniera,Central,Casa de Cultura a Studentilor,2,2,False,True,False,False,2,2,0,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+350,85,Garsoniera," Someseni",Traian Vuia,Mansarda,2,True,True,False,False,3,2,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+280,119,Garsoniera,Floresti,Florilor,2,3,True,True,False,False,3,1,2,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+750,70,Garsoniera," Plopilor",Sala Sporturilor,1,3,True,True,False,False,3,2,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+350,112,Garsoniera,Iris,Oasului,3,3,False,True,False,False,3,1,0,2,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Decomandat
+500,70,Garsoniera,Iris,Oasului,2,2,True,True,False,False,3,2,2,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+440,90,Garsoniera,Zorilor,Calea Turzii,2,4,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+250,54,Garsoniera,Floresti,Florilor,1,2,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+499,54,Garsoniera,Central,P-ta Cipariu,2,8,True,False,False,False,3,2,2,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+350,40,Garsoniera,Zorilor,Spital Recuperare,1,11,True,False,False,False,1,1,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+500,40,Garsoniera,Marasti,OMV,1,12,True,False,False,False,3,2,2,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Modern/lux",Decomandat
+450,67,Garsoniera,Manastur,Kaufland,Parter,4,False,False,False,False,3,2,0,0,Vechi," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+220,64,Garsoniera,Manastur,Minerva,5,8,False,False,False,False,1,1,0,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+400,24,Garsoniera,Zorilor,Calea Turzii,4,8,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Finisat",Semidecomandat
+440,58,Garsoniera,Buna Ziua,Lidl,4,7,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Modern/lux",Decomandat
+440,57,Garsoniera,Intre Lacuri,Dunarii,2,4,True,False,False,False,3,2,2,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+490,70,Garsoniera," Plopilor",Sala Sporturilor,2,3,True,False,False,False,4,2,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+440,110,Garsoniera,Zorilor,Calea Turzii,4,6,True,True,False,False,2,1,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+270,49,Garsoniera,Floresti,Florilor,3,4,True,False,False,False,3,1,2,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+450,58,Garsoniera,Floresti,Somesului,2,4,True,True,False,False,3,2,1,1,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+450,64,Garsoniera,Marasti,P-ta 1 Mai,5,8,False,False,False,False,3,2,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+450,88,Garsoniera,Buna Ziua,Lidl,6,10,False,False,False,False,2,1,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+900,48,Garsoniera,Gheorgheni,Brancusi,6,10,False,False,False,False,2,1,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+500,74,Garsoniera,Marasti,BRD Central,Parter,4,False,False,False,False,3,1,0,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+335,55,Garsoniera,Dambul Rotund,Corneliu Coposu,6,6,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+400,70,Garsoniera,Zorilor,Spital Recuperare,1,2,False,False,False,False,1,1,0,0,Nou," Casa - vila"," Mobilat/utilat"," Finisat",Semidecomandat
+399,40,Garsoniera,Marasti,OMV,6,10,True,False,False,False,3,1,2,0,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+1000000,60,Garsoniera,Gheorgheni,Iulius Mall,3,5,True,False,False,False,3,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+850,42,Garsoniera,Intre Lacuri,Dunarii,4,5,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+650,38,Garsoniera,Intre Lacuri,Iulius Mall,4,5,True,False,False,False,2,1,1,0,Nou," Bloc de apartamente"," Mobilat/utilat"," Modern/lux",Semidecomandat
+1000000,55,Garsoniera,Intre Lacuri,Iulius Mall,3,5,True,False,False,False,3,1,1,0,Nou," Bloc de apartamente"," Modern/lux"," Modern/lux",Semidecomandat
+350,55,Garsoniera,Central,Dorobantilor,6,8,True,True,False,False,2,1,2,1,Vechi," Bloc de apartamente"," Mobilat/utilat"," Finisat",Decomandat
+300,65,Garsoniera,Floresti,Tineretului,1,3,True,True,False,False,3,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat
+280,65,Garsoniera,Floresti,Eroilor,1,3,True,True,False,False,3,1,1,1,Nou," Bloc de apartamente"," Mobilat/utilat"," Finisat",Semidecomandat

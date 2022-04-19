@@ -43,7 +43,7 @@ namespace Front_End.Controllers
             foreach (var property in properties)
             {
                 include = true;
-                if (!property.IsArchived) include = false;
+                if (property.IsArchived) include = false;
                 var model = _mapper.Map<Property, PropertyCsv>(property);
                 model.Floor= property.Address.Floor.Split('/')[0];
                 model.MaxFloor= property.Address.Floor.Split('/')[1];
@@ -186,7 +186,7 @@ namespace Front_End.Controllers
         public void Create(List<PropertyCsv> data)
         {
 
-            using (var writer = new StreamWriter("D:\\Faculta\\Licenta\\licenta\\RentPrediction\\Front End\\Infrastructure\\CSV\\data.csv"))
+            using (var writer = new StreamWriter("D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\Front End\\Infrastructure\\CSVdata.csv"))
             using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
             {
                 csv.WriteRecords(data);
