@@ -41,3 +41,5 @@ rentPrediction/RentPrediction/RentPrediction.Data.Contracts/obj/project.assets.j
 rentPrediction/RentPrediction/RentPrediction.Data.Contracts/obj/RentPrediction.Data.Contracts.csproj.nuget.dgspec.json
 *.cache
 /rentPrediction/RentPrediction/RentPrediction.Business.ML/obj
+/rentPrediction/RentPrediction/RentPrediction.Business.ML/obj
+/rentPrediction/RentPrediction/.vs
