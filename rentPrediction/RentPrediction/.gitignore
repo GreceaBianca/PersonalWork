@@ -30,5 +30,7 @@
 /RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.dgspec.json
 /RentPrediction.Business/obj/RentPrediction.Business.csproj.nuget.g.props
 /RentPrediction.sln.DotSettings.user
+/RentPrediction/RentPrediction.Business.ML/obj
+rentPrediction/RentPrediction/RentPrediction.Business.ML/obj
 *.pdf
 *.cache
