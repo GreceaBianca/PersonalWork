@@ -27,3 +27,14 @@ C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPre
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.csproj.CoreCompileInputs.cache
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.dll
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\bin\Debug\netstandard2.0\RentPredictionML.Model.deps.json
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\bin\Debug\netstandard2.0\RentPredictionML.Model.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\bin\Debug\netstandard2.0\RentPredictionML.Model.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.csproj.AssemblyReference.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.AssemblyInfoInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.AssemblyInfo.cs
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.csproj.CoreCompileInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPredictionML.Model\obj\Debug\netstandard2.0\RentPredictionML.Model.pdb

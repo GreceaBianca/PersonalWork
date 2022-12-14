@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
+      "projectUniqueName": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
       "projectName": "RentPrediction.Data.Contracts",
-      "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
+      "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
       "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\obj\\",
+      "outputPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -238,7 +238,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

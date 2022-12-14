@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj": {}
+    "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj": {
+    "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
+        "projectUniqueName": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
         "projectName": "RentPrediction.Data.Contracts",
-        "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
+        "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj",
         "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\obj\\",
+        "outputPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,18 +60,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
+    "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj",
+        "projectUniqueName": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj",
         "projectName": "RentPrediction.Data.Entities",
-        "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj",
+        "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj",
         "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\obj\\",
+        "outputPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj": {
-                "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj"
+              "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj": {
+                "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Contracts\\RentPrediction.Data.Contracts.csproj"
               }
             }
           }
@@ -132,18 +132,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj": {
+    "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj",
+        "projectUniqueName": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj",
         "projectName": "RentPrediction.Data",
-        "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj",
+        "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj",
         "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\obj\\",
+        "outputPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -163,8 +163,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
-                "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj"
+              "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
+                "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj"
               }
             }
           }
@@ -210,18 +210,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj": {
+    "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj",
+        "projectUniqueName": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj",
         "projectName": "RentPrediction.BEModels",
-        "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj",
+        "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\RentPrediction.BEModels.csproj",
         "packagesPath": "C:\\Users\\BLISSOFT SOLUTIONS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\obj\\",
+        "outputPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\tesr\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -241,11 +241,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
-                "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj"
+              "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj": {
+                "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data.Entities\\RentPrediction.Data.Entities.csproj"
               },
-              "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj": {
-                "projectPath": "C:\\Users\\BLISSOFT SOLUTIONS\\Desktop\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj"
+              "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj": {
+                "projectPath": "D:\\Personal\\Personal\\PersonalWork\\rentPrediction\\RentPrediction\\RentPrediction.Data\\RentPrediction.Data.csproj"
               }
             }
           }
@@ -289,7 +289,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

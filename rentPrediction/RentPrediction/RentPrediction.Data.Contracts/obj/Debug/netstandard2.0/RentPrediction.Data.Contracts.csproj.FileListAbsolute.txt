@@ -24,3 +24,13 @@ C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPre
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.deps.json
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.csproj.AssemblyReference.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.AssemblyInfoInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.AssemblyInfo.cs
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.csproj.CoreCompileInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Data.Contracts\obj\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb

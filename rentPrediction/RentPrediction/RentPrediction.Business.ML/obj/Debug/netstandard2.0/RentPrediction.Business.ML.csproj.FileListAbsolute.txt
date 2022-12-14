@@ -46,3 +46,28 @@ C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPre
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CopyComplete
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.dll
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\MLModel.zip
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.deps.json
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.ML.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPredictionML.Model.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Business.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPredictionML.Model.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.AssemblyReference.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.AssemblyInfoInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.AssemblyInfo.cs
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CoreCompileInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.csproj.CopyComplete
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Business.ML\obj\Debug\netstandard2.0\RentPrediction.Business.ML.pdb

@@ -60,3 +60,25 @@ C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPre
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.csproj.CopyComplete
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.dll
 C:\Users\BLISSOFT SOLUTIONS\Desktop\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\Data\taxi-fare-train.csv
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Repo.deps.json
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Repo.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Repo.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.BEModels.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.Entities.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Repo.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.BEModels.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\bin\Debug\netstandard2.0\RentPrediction.Data.Contracts.pdb
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.csproj.AssemblyReference.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.AssemblyInfoInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.AssemblyInfo.cs
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.csproj.CoreCompileInputs.cache
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.csproj.CopyComplete
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.dll
+D:\Personal\Personal\PersonalWork\rentPrediction\RentPrediction\RentPrediction.Repo\obj\Debug\netstandard2.0\RentPrediction.Repo.pdb
